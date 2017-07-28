@@ -1,3 +1,93 @@
+.navbarSearch {
+  background: #f7f7f7;
+  height: 50px; }
+  .navbarSearch input {
+    width: 100%;
+    margin-top: 10px;
+    height: 30px; }
 
+.navigationBar .navbar {
+  height: 70px; }
+  .navigationBar .navbar .nav {
+    margin-top: 15px;
+    font-size: 20px; }
+
+.sliderSection {
+  height: 600px;
+  overflow: hidden;
+  margin-left: -15px; }
+
+#home .clientBar {
+  height: 100px;
+  background: #f7f7f7; }
+#home ul {
+  margin-top: 30px; }
+  #home ul li {
+    display: inline-block;
+    list-style: none;
+    padding-right: 30px; }
+
+#servicesWeProvide .titleName {
+  margin-top: 30px;
+  color: #46af5b; }
+#servicesWeProvide .col-md-4 {
+  margin-top: 20px;
+  height: 300px; }
+  #servicesWeProvide .col-md-4 a {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    color: black; }
+    #servicesWeProvide .col-md-4 a h1 {
+      font-size: 23px; }
+  #servicesWeProvide .col-md-4 a:hover {
+    color: #46af5b;
+    font-style: none; }
+    #servicesWeProvide .col-md-4 a:hover h {
+      font-style: none; }
+  #servicesWeProvide .col-md-4 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px; }
+  #servicesWeProvide .col-md-4 hr {
+    border-radius: 2px;
+    background: #46af5b; }
+
+#ourImpressivePortfolio h1 {
+  color: #46af5b; }
+#ourImpressivePortfolio .images {
+  margin-top: 40px; }
+  #ourImpressivePortfolio .images .row .col-md-12 {
+    margin-top: 30px; }
+#ourImpressivePortfolio .btn {
+  margin-top: 50px;
+  height: 40px;
+  width: 300px;
+  padding-top: 10px;
+  background: #46af5b;
+  color: white;
+  border-radius: 2px solid #46af5b; }
+#ourImpressivePortfolio .btn:hover {
+  background: white;
+  color: #46af5b; }
+
+#sliderSection {
+  margin-top: 80px; }
+  #sliderSection .container-fluid {
+    height: 600px;
+    overflow: hidden;
+    padding-left: 0px;
+    padding-right: 0px; }
+    #sliderSection .container-fluid .slider {
+      height: 600px; }
+      #sliderSection .container-fluid .slider .sliderImage1 {
+        background-image: url(../img/case-studies-slider1.jpg);
+        height: 600px; }
+      #sliderSection .container-fluid .slider .sliderImage2 {
+        background-image: url(../img/case-studies-slider2.jpg);
+        height: 600px; }
+      #sliderSection .container-fluid .slider .sliderImage3 {
+        background-image: url(../img/case-studies-slider3.jpg);
+        height: 600px; }
 
 /*# sourceMappingURL=main.css.map */

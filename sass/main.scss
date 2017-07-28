@@ -1,0 +1,135 @@
+
+$colorGreen: #46af5b;
+
+
+
+
+
+
+
+.navbarSearch{
+	background:#f7f7f7;
+	height:50px;
+	input{
+		width: 100%;
+		margin-top: 10px;
+		height: 30px;
+	}
+}
+.navigationBar{
+	.navbar{
+		height: 70px;
+		.nav{
+			margin-top: 15px;
+			font-size: 20px;
+		}
+	}
+}
+.sliderSection{
+	height:600px;
+	overflow:hidden;
+	margin-left: -15px;
+}
+#home{
+	.clientBar{
+		height: 100px;
+		background:#f7f7f7;
+	}
+	ul{
+		margin-top: 30px;
+		li{
+			display: inline-block;
+			list-style:none;
+			padding-right: 30px;
+
+		}
+	}
+}
+#servicesWeProvide{
+	.titleName{
+		margin-top: 30px;
+		color: $colorGreen;
+	}
+	.col-md-4{
+		margin-top: 20px;
+		height: 300px;
+		a{
+			padding-left:30px;
+			padding-right:30px;
+			display: block;
+			color: black;
+			h1{
+				font-size: 23px;
+			}
+			
+		}
+		a:hover{
+			color: $colorGreen;
+			font-style: none;
+			h{
+				font-style: none;
+			}
+
+		}
+		p{
+			padding-left:30px;
+			padding-right:30px;
+			font-size: 18px;
+		}
+		hr{
+			border-radius: 2px;
+			background: $colorGreen;
+		}
+	}
+}
+#ourImpressivePortfolio{
+	h1{
+		color: $colorGreen;
+	}
+	.images{
+			margin-top: 40px;
+			.row{
+			.col-md-12{
+				margin-top: 30px;
+			}
+		}
+	}
+	.btn{
+		margin-top:50px;
+		height: 40px;
+		width: 300px;
+		padding-top: 10px;
+		background:$colorGreen;
+		color: white;
+		border-radius:2px solid $colorGreen;
+	}
+	.btn:hover{
+
+		background:white;
+		color: $colorGreen;;
+	}
+}
+#sliderSection{
+	margin-top:80px;
+	.container-fluid{
+		height: 600px;
+		overflow: hidden;
+		padding-left:0px;
+		padding-right:0px;
+		.slider{
+			height: 600px;
+			.sliderImage1{
+				background-image:url(../img/case-studies-slider1.jpg);
+				height: 600px;
+			}
+			.sliderImage2{
+				background-image:url(../img/case-studies-slider2.jpg);
+				height: 600px;
+			}
+			.sliderImage3{
+				background-image:url(../img/case-studies-slider3.jpg);
+				height: 600px;
+			}
+		}
+	}
+}
