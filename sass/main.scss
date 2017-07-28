@@ -118,6 +118,24 @@ $colorGreen: #46af5b;
 		padding-right:0px;
 		.slider{
 			height: 600px;
+			h1{
+				color: white;
+				margin-top: 40px;
+				padding-bottom: 20px;
+			}
+			p{
+				color: white;
+				padding-bottom: 20px;
+				font-size: 17px;
+			}
+			span{
+				color: white;
+				display: block;
+				padding-bottom: 20px;
+			}
+			a{
+				color: white;
+			}
 			.sliderImage1{
 				background-image:url(../img/case-studies-slider1.jpg);
 				height: 600px;
@@ -131,5 +149,38 @@ $colorGreen: #46af5b;
 				height: 600px;
 			}
 		}
+	}
+}
+#reasonsforChoosingUs{
+	.container-fluid{
+		.col-md-4{
+			hr{
+				border-radius:2px;
+			}
+			input{
+				width: 100%;
+				height: 40px;
+				margin-bottom: 10px;
+			}
+			textarea{
+				width: 100%;
+				height: 80px;
+			}
+		}
+		button{
+			width: 100%;
+			height: 40px;
+		}
+	}
+}
+#successInNumbers{
+	.row{
+		margin-top:100px;
+		height:300px;
+		background-image: url("../img/success.jpg");
+		background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
 	}
 }
